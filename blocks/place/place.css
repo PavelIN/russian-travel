@@ -1,0 +1,27 @@
+.place {
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .place {
+      column-gap: 32px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .place {
+      column-gap: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .place {
+      padding-bottom: 50px;
+      grid-template-columns: 1fr;
+      row-gap: 32px;
+    }
+  }

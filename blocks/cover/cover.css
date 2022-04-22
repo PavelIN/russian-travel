@@ -1,0 +1,13 @@
+.cover {
+    margin: 0 48px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 0;
+        width: 100%;
+    }
+}
