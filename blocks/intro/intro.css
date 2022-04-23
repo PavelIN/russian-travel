@@ -1,29 +1,29 @@
 .intro {
-    padding-top: 92px;
-    margin: 0 148px 0;
+  padding-top: 92px;
+  margin: 0 148px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
   }
 
-  @media screen and (max-width: 1024px) {
-    .intro {
-      margin: 0 48px 0;
-    }
+  .intro {
+    padding-top: 64px;
+    margin: 0 16px 0;
   }
-
-  @media screen and (max-width: 768px) {
-    .intro {
-      padding-top: 88px;
-      margin: 0 24px 0;
-    }
-  }
-
-  @media screen and (max-width: 425px) {
-    .intro__title {
-      font-size: 32px;
-      line-height: 109%;
-    }
-  
-    .intro {
-      padding-top: 64px;
-      margin: 0 16px 0;
-    }
-  }
+}

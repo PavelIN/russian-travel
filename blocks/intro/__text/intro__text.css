@@ -1,9 +1,9 @@
 .intro__text {
-    max-width: 690px;
-    font-family: "Inter", "Arial ", sans-serif;
-    margin: 40px 0 33px;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-  }
+  max-width: 690px;
+  font-family: "Inter", "Arial ", sans-serif;
+  margin: 40px 0 33px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
