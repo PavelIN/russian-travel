@@ -21,3 +21,10 @@
         margin: 0 16px 0;
     }
 }
+
+@media screen and (max-width: 490px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 109%;
+    }
+}

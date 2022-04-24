@@ -12,15 +12,29 @@
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .place {
-    column-gap: 28px;
+    column-gap: 16px;
+    row-gap: 45px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place {
+    column-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    column-gap: 8px;
   }
 }
 
 @media screen and (max-width: 490px) {
   .place {
-    padding-bottom: 50px;
+    padding-bottom: 66px;
     grid-template-columns: 1fr;
     row-gap: 32px;
   }
