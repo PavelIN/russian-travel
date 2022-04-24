@@ -19,3 +19,5 @@
     src: url(/fonts/inter/Inter-Regular.woff2) format('woff2'),
         url(/fonts/inter/Inter-Regular.woff) format('woff');
 }
+
+/*у меня локально тут шрифт так подключается ,но при отправке на гитхаб шрифт не проходит ,почему?*/
