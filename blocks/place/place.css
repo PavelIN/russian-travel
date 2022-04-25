@@ -1,5 +1,5 @@
 .place {
-  padding-bottom: 80px;
+  padding-bottom: 92px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
@@ -15,14 +15,14 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    column-gap: 16px;
-    row-gap: 45px;
+    column-gap: 28px;
+    row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .place {
-    column-gap: 12px;
+    column-gap: 10px;
   }
 }
 
