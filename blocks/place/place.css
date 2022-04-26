@@ -1,10 +1,15 @@
 .place {
-  padding-bottom: 92px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 48px;
 }
+
+.place:last-child{
+  padding-bottom: 0;
+}
+
 
 @media screen and (max-width: 1024px) {
   .place {
